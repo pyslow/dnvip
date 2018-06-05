@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d22222",
+    "navigationBarTitleText": "Slow",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#d22222"
+  },
+  "tabBar":{
+    "color" : "#d22222",
+    "list":[
+      {
+        "pagePath" : "pages/index/index",
+        "text" : "首页"
+      },
+      {
+        "pagePath" : "pages/logs/logs",
+        "text" : "日记"
+      }
+
+    ]
+  }
+}
